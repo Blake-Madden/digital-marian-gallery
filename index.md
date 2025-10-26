@@ -24,7 +24,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 > *Audio Guide available soon.* 🎧
 
-<hr style="border: 0; height: 1px; background: #d1b97f; margin: 40px 0;">
+<div class="room">
 
 <h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
@@ -47,7 +47,10 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p align="center"><em style="font-variant: small-caps;">— End of the « In the Data Lab » Wing —</em></p>
 
-<hr style="border: 0; height: 1px; background: #d1b97f; margin: 40px 0;">
+</div>
+
+
+<div class="room">
 
 <h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">☕ At the Café</h2>
 <p align="center"><em>Gallery Wing II · Est. MMXXV</em></p>
@@ -103,7 +106,10 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p align="center"><em style="font-variant: small-caps;">— End of the « At the Café » Wing —</em></p>
 
-<hr style="border: 0; height: 1px; background: #d1b97f; margin: 40px 0;">
+</div>
+
+
+<div class="room">
 
 <h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">🏠 Mary at Home</h2>
 <p align="center"><em>Gallery Wing III · Est. MMXXV</em></p>
@@ -141,6 +147,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 </p>
 
 <p align="center"><em style="font-variant: small-caps;">— End of the « Mary at Home » Wing —</em></p>
+
+</div>
 
 <hr style="border: 0; height: 1px; background: #d1b97f; margin: 40px 0;">
 

@@ -1,0 +1,98 @@
+---
+---
+
+/* import base theme if you want to keep its structure */
+@import "minima";
+
+/* === Digital Marian Gallery custom style === */
+
+/* general page tone */
+body {
+    background-color: #f9f7f1; /* warm parchment */
+    color: #2c2b28; /* soft charcoal text */
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 2em 1em;
+}
+
+/* headings – quiet authority */
+h1, h2, h3, h4 {
+    font-family: "Times New Roman", serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #4b3621; /* bronze-brown */
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 2px solid #c59b2f; /* thin gold underline */
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+/* subtle museum-style captions */
+em {
+    color: #5b4b3a;
+}
+
+/* badges and inline images */
+img {
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    display: block;
+    margin: 1.5em auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* horizontal rules – brass gallery rails */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #c59b2f;
+    margin: 3em 0;
+}
+
+/* links – muted gold hover */
+a {
+    color: #7a5e29;
+    text-decoration: none;
+    border-bottom: 1px dotted #c59b2f;
+}
+
+a:hover {
+    color: #4b3621;
+    border-bottom: 1px solid #4b3621;
+}
+
+/* footer / house notes */
+footer {
+    border-top: 1px solid #c59b2f;
+    margin-top: 4em;
+    padding-top: 1em;
+    text-align: center;
+    font-style: italic;
+    color: #5b4b3a;
+}
+
+/* make small caps render gracefully if supported */
+.smallcaps {
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+}
+
+/* add soft "room" separation boxes */
+.room {
+    background-color: #fcfbf8;
+    border-left: 6px solid #c59b2f;
+    padding: 1.5em;
+    margin: 3em 0;
+    border-radius: 6px;
+}
