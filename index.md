@@ -34,14 +34,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </a>
 </p>
 
-<div class="plaque">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Data%20Lab-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-Dashboards%20at%20Dawn-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MDL%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Room-Data%20Lab-6b4f2a?style=flat-square" alt="Room badge">
+<img class="plaque" src="https://img.shields.io/badge/Title-Dashboards%20at%20Dawn-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MDL%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
   <em>
@@ -65,14 +63,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </a>
 </p>
 
-<div class="plaque">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-Afternoon%20Blend%20%E2%80%94%20ETL%20%26%20PSL-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
+<img class="plaque" src="https://img.shields.io/badge/Title-Afternoon%20Blend%20%E2%80%94%20ETL%20%26%20PSL-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
   <em>
@@ -86,14 +82,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 </a>
 </p>
 
-<div class="plaque">
-    <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
-    <img class="plaque" src="https://img.shields.io/badge/Title-Undoing%20the%20Knots-7C6F44?style=flat-square" alt="Title badge">
-    <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
-    <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-    <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-    <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
+<img class="plaque" src="https://img.shields.io/badge/Title-Undoing%20the%20Knots-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
   <em>
@@ -107,14 +101,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </a>
 </p>
 
-<div class="plaque">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-Springing%20Forth%20%E2%80%94%20New%20Visualizations-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
+<img class="plaque" src="https://img.shields.io/badge/Title-Springing%20Forth%20%E2%80%94%20New%20Visualizations-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
 <em>
@@ -138,14 +130,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </a>
 </p>
 
-<div class="plaque">
 <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-Jack%E2%80%90o%E2%80%99%E2%80%90Lantern%20Workshop-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Title-Jack%E2%80%90o%E2%80%99%E2%80%90Lantern%20Workshop-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
   <em>
@@ -159,14 +149,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </a>
 </p>
 
-<div class="plaque">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-The%20Thanksgiving%20Table%2C%20with%20Assistants-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br /><br />
-</div>
+<img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+<img class="plaque" src="https://img.shields.io/badge/Title-The%20Thanksgiving%20Table%2C%20with%20Assistants-7C6F44?style=flat-square" alt="Title badge">
+<img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+<img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+<img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
+<br /><br />
 
 <p style="text-align:center;">
   <em>
