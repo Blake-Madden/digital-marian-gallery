@@ -30,11 +30,11 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/datawiz.png">
-    <img src="images/datawiz.png" width="75%" alt="Dashboards at Dawn" title="Dashboards at Dawn"><br>
+    <img class="portrait" src="images/datawiz.png" width="75%" alt="Dashboards at Dawn" title="Dashboards at Dawn"><br>
   </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
   <img src="https://img.shields.io/badge/Room-Data%20Lab-6b4f2a?style=flat-square" alt="Room badge">
   <img src="https://img.shields.io/badge/Title-Dashboards%20at%20Dawn-7C6F44?style=flat-square" alt="Title badge">
   <img src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
@@ -61,11 +61,11 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/data-report-at-coffee-shop-autumn.png">
-    <img src="images/data-report-at-coffee-shop-autumn.png" width="75%" alt="Afternoon Blend - ETL & PSL" title="Afternoon Blend - ETL & PSL"><br>
+    <img class="portrait" src="images/data-report-at-coffee-shop-autumn.png" width="75%" alt="Afternoon Blend - ETL & PSL" title="Afternoon Blend - ETL & PSL"><br>
   </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
   <img src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
   <img src="https://img.shields.io/badge/Title-Afternoon%20Blend%20%E2%80%94%20ETL%20%26%20PSL-7C6F44?style=flat-square" alt="Title badge">
   <img src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
@@ -80,15 +80,13 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </em>
 </p>
 
----
-
 <p style="text-align:center;">
 <a href="images/data-report-at-winter-coffee-shop.png">
-    <img src="images/data-report-at-winter-coffee-shop.png" width="75%" alt="Undoing the Knots" title="Undoing the Knots"><br>
+    <img class="portrait" src="images/data-report-at-winter-coffee-shop.png" width="75%" alt="Undoing the Knots" title="Undoing the Knots"><br>
 </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
     <img src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
     <img src="https://img.shields.io/badge/Title-Undoing%20the%20Knots-7C6F44?style=flat-square" alt="Title badge">
     <img src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
@@ -103,15 +101,13 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </em>
 </p>
 
----
-
 <p style="text-align:center;">
   <a href="images/springtime-coffeeshot.png">
-    <img src="images/springtime-coffeeshot.png" width="75%" alt="Springing Forth" title="Springing Forth"><br>
+    <img class="portrait" src="images/springtime-coffeeshot.png" width="75%" alt="Springing Forth" title="Springing Forth"><br>
   </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
   <img src="https://img.shields.io/badge/Room-Café%20Wing-6b4f2a?style=flat-square" alt="Room badge">
   <img src="https://img.shields.io/badge/Title-Springing%20Forth%20%E2%80%94%20New%20Visualizations-7C6F44?style=flat-square" alt="Title badge">
   <img src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
@@ -138,11 +134,11 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/trick-or-treat.png">
-    <img src="images/trick-or-treat.png" width="75%" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
+    <img class="portrait" src="images/trick-or-treat.png" width="75%" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
   </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
 <img src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img src="https://img.shields.io/badge/Title-Jack%E2%80%90o%E2%80%99%E2%80%90Lantern%20Workshop-7C6F44?style=flat-square" alt="Title badge">
   <img src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
@@ -157,15 +153,13 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </em>
 </p>
 
----
-
 <p style="text-align:center;">
   <a href="images/thanksgiving.png">
-    <img src="images/thanksgiving.png" width="75%" alt="The Thanksgiving Table, with Assistants" title="The Thanksgiving Table, with Assistants"><br>
+    <img class="portrait" src="images/thanksgiving.png" width="75%" alt="The Thanksgiving Table, with Assistants" title="The Thanksgiving Table, with Assistants"><br>
   </a>
 </p>
 
-<div style="text-align:left;">
+<div class="plaque">
   <img src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img src="https://img.shields.io/badge/Title-The%20Thanksgiving%20Table%2C%20with%20Assistants-7C6F44?style=flat-square" alt="Title badge">
   <img src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
@@ -192,7 +186,7 @@ Sunday · Closed for quiet reflection and gentle maintenance
 
 ### ✉️ Curator’s Desk
 For inquiries regarding the collection, drop us a note at the   
-[**gallery’s correspondence desk**](https://github.com/Blake-Madden/Blake-Madden/issues)
+[**gallery’s correspondence desk**](https://github.com/Blake-Madden/digital-marian-gallery/issues)
 
 
 ### 📜 House Notes
@@ -206,7 +200,7 @@ Works on rotation; serenity subject to network latency.
 ---
 
 ### 🎟️ Support the Gallery
-![Supporting Patrons](https://img.shields.io/github/stars/Blake-Madden/Blake-Madden?label=Supporting%20Patrons&color=9C661F&style=flat-square)
+![Supporting Patrons](https://img.shields.io/github/stars/Blake-Madden/digital-marian-gallery?label=Supporting%20Patrons&color=9C661F&style=flat-square)
 
 If you enjoyed your visit, you can support future exhibitions by leaving a ⭐ on the project repository.  
 
