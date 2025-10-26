@@ -46,7 +46,9 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/datawiz.png">
-    <img class="portrait" src="images/datawiz.png" width="75%" alt="Dashboards at Dawn" title="Dashboards at Dawn"><br>
+    <div class="frame">
+    <img class="portrait" src="images/datawiz.png" alt="Dashboards at Dawn" title="Dashboards at Dawn">
+    </div>
   </a>
 </p>
 
