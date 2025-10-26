@@ -10,8 +10,8 @@
     --gold-3: #d7b970; /* mat / inner */
     --wall: #fcfbf8; /* room wall color */
     --plaque: #ece5d0; /* label plate */
-
     --shadow: 0 6px 12px rgba(0,0,0,0.25);
+    --heading: #4b3621; /* deep bronze for light mode */
 }
 
 /* === Digital Marian Gallery custom style === */
@@ -138,6 +138,11 @@ footer {
         --wall: #16181b;
         --plaque: #1c1f22;
         --shadow: 0 8px 16px rgba(0,0,0,0.5);
+        --heading: #f0e4c2; /* warm light-gold for contrast on dark */
+    }
+
+    h1, h2 {
+        text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 0 6px rgba(181,142,43,0.25);
     }
 
     body {
