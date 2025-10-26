@@ -97,6 +97,23 @@ em, i {
     border-radius: 2px;
 }
 
+img.portrait {
+    display: block;
+    margin: 2em auto;
+    max-width: 100%;
+    height: auto;
+    /* inner mat */
+    background: #f6e7b8;
+    padding: 12px;
+    /* gradient gilded border */
+    border: 8px solid transparent;
+    border-image: linear-gradient(135deg, #b68b2e, #e3c875 45%, #9f7b2b) 1;
+    /* depth */
+    box-shadow: 0 0 0 4px #a88a3b, /* outer band */
+    0 8px 16px rgba(0,0,0,.25);
+    border-radius: 3px;
+}
+
 /* plaque style for badge area */
 img.plaque {
     display: block;
@@ -366,6 +383,12 @@ footer {
         color-scheme: dark;
         background: var(--bg);
         color: var(--text);
+    }
+
+    img.portrait {
+        background: #6e5920; /* warm dark mat */
+        border-image: linear-gradient(135deg, #8f7426, #b58e2b 45%, #5e471a) 1;
+        box-shadow: 0 0 0 4px #8a6e2a, 0 12px 22px rgba(0,0,0,.55);
     }
 
     .plaque {
