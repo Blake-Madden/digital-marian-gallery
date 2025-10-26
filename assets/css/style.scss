@@ -49,7 +49,7 @@ body {
 
 /* collapse empty header space from Minima */
 .site-header {
-    max-height: 0 !important;
+    min-height: 0;
     padding: 0 !important;
     margin: 0 !important;
     border-bottom: none !important;
@@ -130,59 +130,6 @@ em, i {
     border: 1px solid rgba(0,0,0,.08);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 0 6px rgba(0,0,0,.15);
     border-radius: 3px;
-}
-
-/* Center the framed piece with no extra line height from <p>/<br> */
-.frame-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 2rem 0;
-}
-
-/* Make the whole framed work clickable */
-.frame-link {
-    display: block;
-    text-decoration: none;
-}
-
-/* The frame controls width; image fills it */
-.frame {
-    display: block;
-    margin: 0 auto;
-    max-width: clamp(320px, 75vw, 1000px);
-}
-
-/* Kill any global image centering and gaps */
-img {
-    margin: 0;
-}
-/* prevent global margin:auto centering */
-img.portrait {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-/* (Keep your ornate frame styles from earlier) */
-.frame {
-    padding: 10px;
-    border-radius: 6px;
-    background: linear-gradient(135deg, #8c6a21, #caa746 40%, #8a6b28);
-    box-shadow: inset 0 1px 2px rgba(255,255,255,.45), inset 0 -2px 4px rgba(0,0,0,.25), 0 10px 24px rgba(0,0,0,.20);
-}
-
-.frame > img.portrait {
-    background: #f6e7b8;
-    padding: 12px;
-    border: 1px solid rgba(0,0,0,.08);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 0 6px rgba(0,0,0,.15);
-    border-radius: 3px;
-}
-
-/* Clear any global rule centering images */
-img {
-    margin: initial;
 }
 
 /* plaque style for badge area */

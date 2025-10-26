@@ -44,13 +44,13 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p class="pedestal">— Gallery View —</p>
 
-<div class="frame-wrap">
-  <a class="frame-link" href="images/datawiz.png">
+<p style="text-align:center;">
+  <a href="images/datawiz.png">
     <div class="frame">
-      <img class="portrait" src="images/datawiz.png" alt="Dashboards at Dawn" title="Dashboards at Dawn">
+      <img class="portrait" src="images/datawiz.png" width="75% alt="Dashboards at Dawn" title="Dashboards at Dawn">
     </div>
   </a>
-</div>
+</p>
 
 <div style="text-align:left;">
   <img class="plaque" src="https://img.shields.io/badge/Room-Data%20Lab-6b4f2a?style=flat-square" alt="Room badge">
