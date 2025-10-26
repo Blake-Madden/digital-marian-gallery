@@ -132,6 +132,33 @@ em, i {
     border-radius: 3px;
 }
 
+/* Center the frame precisely, no extra line height from <p> */
+.frame-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+/* Make the whole framed piece clickable without changing layout */
+.frame-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Control width here (no width="" on the <img>) */
+.frame {
+    max-width: 75%;
+}
+/* or a px value like 900px */
+.frame > img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+/* Clear any global rule centering images */
+img {
+    margin: initial;
+}
 
 /* plaque style for badge area */
 img.plaque {
