@@ -1,16 +1,14 @@
 ---
 ---
-
 /* === Digital Marian Gallery custom style === */
-
 /* general page tone */
 body {
-    background-color: #f9f7f1; /* warm parchment */
-    color: #2c2b28; /* soft charcoal text */
+    background-color: #f9f7f1;
+    color: #2c2b28;
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.7;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1100px; /* wider canvas for big displays */
     padding: 2em 1em;
 }
 
@@ -41,12 +39,16 @@ em {
 
 /* badges and inline images */
 img {
-    border-radius: 4px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.1);
     display: block;
-    margin: 1.5em auto;
+    margin: 2em auto;
     max-width: 100%;
     height: auto;
+    background-color: #d7b970; /* warm gold base */
+    padding: 10px; /* inner border spacing */
+    border: 6px ridge #c59b2f; /* raised gilded edge */
+    box-shadow: 0 0 0 4px #a88a3b, /* outer gold band */
+    0 0 10px rgba(0, 0, 0, 0.25); /* soft shadow for depth */
+    border-radius: 2px;
 }
 
 /* horizontal rules – brass gallery rails */
