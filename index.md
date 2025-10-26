@@ -1,3 +1,8 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 # 🏛️ Digital Marian Gallery
 
 A curated collection of contemporary digital works depicting the **Blessed Virgin Mary**, programmer and data analyst of uncommon grace.  
