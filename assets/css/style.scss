@@ -122,6 +122,26 @@ em, i {
     border-radius: 2px;
 }
 
+/* Ornate single-layer portrait frame */
+img.portrait {
+    display: block;
+    margin: 2em auto;
+    max-width: 75%;
+    height: auto;
+    border-radius: 4px;
+    /* soft gilded gradient background */
+    background: linear-gradient( 135deg, #fff8e1 0%, /* highlight edge */
+    #f6e7b8 35%, /* mid gold tone */
+    #e3c875 100% /* warm glow */
+    );
+    padding: 14px;
+    /* raised metallic edge */
+    border: 6px solid transparent;
+    border-image: linear-gradient( 135deg, #b68b2e, #e3c875 45%, #9f7b2b ) 1;
+    /* depth and reflection */
+    box-shadow: 0 0 0 4px rgba(154,123,42,.8), 0 10px 24px rgba(0,0,0,.25), inset 0 1px 2px rgba(255,255,255,.5);
+}
+
 /* plaque style for badge area */
 img.plaque {
     display: block;
@@ -435,5 +455,11 @@ footer {
     .map-sign::before, .map-sign::after,
     .screw-bl, .screw-br {
         background: radial-gradient(circle at 30% 30%, #f6f1d6 0 25%, #c3a24a 26% 55%, #3f3012 56% 100%);
+    }
+
+    img.portrait {
+        background: linear-gradient( 135deg, #6e5920 0%, #8f7426 40%, #b58e2b 100% );
+        border-image: linear-gradient( 135deg, #8f7426, #b58e2b 45%, #5e471a ) 1;
+        box-shadow: 0 0 0 4px rgba(181,142,43,.7), 0 12px 28px rgba(0,0,0,.55), inset 0 1px 1px rgba(255,255,255,.1);
     }
 }
