@@ -42,21 +42,33 @@ body {
     padding: 2em 1em;
 }
 
-/* Hide the theme's masthead title and bottom border */
-.site-header .site-title {
-    display: none !important;
-}
-
-/* collapse empty header space from Minima */
+/* Remove Minima header completely */
 .site-header {
-    min-height: 0;
+    display: none !important;
+    height: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
-    border-bottom: none !important;
+    border: 0 !important;
 }
 
 .site-header::after {
-    content: none;
+    content: none !important;
+}
+
+/* Pull content up */
+.page-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.page-content .wrapper {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Optional: trim first element's top margin so it hugs the top nicely */
+.page-content .wrapper > *:first-child {
+    margin-top: 0 !important;
 }
 
 .page-content {
