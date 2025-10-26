@@ -44,6 +44,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   <br />
 </div>
 
+<p class="pedestal">— Gallery View —</p>
+
 <p style="text-align:center;">
   <em>
     Mary reviews the morning metrics, coffee in hand, her dashboards alive with new insight.
