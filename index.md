@@ -28,7 +28,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 <h2 class="map-heading">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
 
-<div class="work">
+<p class="pedestal">— Gallery View —</p>
+
 <p style="text-align:center;">
   <a href="images/datawiz.png">
     <img class="portrait" src="images/datawiz.png" width="75%" alt="Dashboards at Dawn" title="Dashboards at Dawn"><br>
@@ -44,15 +45,12 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   <br />
 </div>
 
-<p class="pedestal">— Gallery View —</p>
-
 <p style="text-align:center;">
   <em>
     Mary reviews the morning metrics, coffee in hand, her dashboards alive with new insight.
     Another quiet victory for clarity before the day begins.
   </em>
 </p>
-</div>
 
 <p align="center" class="plaque-caption">— End of the « <em>In the Data Lab</em> » Wing —</p>
 
@@ -62,6 +60,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <h2 class="map-heading">☕ At the Café</h2>
 <p align="center"><em>Gallery Wing II · Est. MMXXV</em></p>
+
+<p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
   <a href="images/data-report-at-coffee-shop-autumn.png">
@@ -84,6 +84,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
   </em>
 </p>
 
+<p class="pedestal">— Gallery View —</p>
+
 <p style="text-align:center;">
 <a href="images/data-report-at-winter-coffee-shop.png">
     <img class="portrait" src="images/data-report-at-winter-coffee-shop.png" width="75%" alt="Undoing the Knots" title="Undoing the Knots"><br>
@@ -104,6 +106,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
     Winter evening by the fire: Mary, Undoer of Knots, wrestles with a tangled data report that refuses to balance. A furrowed brow now — but the fix is already forming, quiet and sure as the snow outside.
   </em>
 </p>
+
+<p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
   <a href="images/springtime-coffeeshot.png">
@@ -136,6 +140,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 <h2 class="map-heading">🏠 Mary at Home</h2>
 <p align="center"><em>Gallery Wing III · Est. MMXXV</em></p>
 
+<p class="pedestal">— Gallery View —</p>
+
 <p style="text-align:center;">
   <a href="images/trick-or-treat.png">
     <img class="portrait" src="images/trick-or-treat.png" width="75%" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
@@ -156,6 +162,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
     Halloween at home: Our Lady of the Rosary sets her data work aside to carve jack-o’-lanterns by the fire. The cider’s hot, the pets are drowsy—except for one curious cat plotting an ambush on a pumpkin. She laughs as the cat prepares its attack, convinced it’s helping with the carving.
   </em>
 </p>
+
+<p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
   <a href="images/thanksgiving.png">
