@@ -20,6 +20,7 @@
     --wall: #fcfbf8;
     --plaque: #ece5d0;
     --shadow: 0 6px 12px rgba(0,0,0,0.25);
+    --room: #fcfbf8; /* light parchment for day mode */
 }
 
 /* === Digital Marian Gallery custom style === */
@@ -46,7 +47,7 @@ h1, h2, h3, h4 {
     font-family: "Times New Roman", serif;
     font-variant: small-caps;
     letter-spacing: 1px;
-    color: #4b3621; /* bronze-brown */
+    color: var(--heading);
     text-align: center;
 }
 
@@ -62,7 +63,6 @@ h2 {
 }
 
 h3 {
-    color: var(--subheading, #6b4f2a);
     font-family: "Times New Roman", serif;
     letter-spacing: 0.5px;
     text-align: center;
@@ -137,7 +137,7 @@ footer {
 
 /* add soft "room" separation boxes */
 .room {
-    background-color: #fcfbf8;
+    background-color: var(--room);
     border-left: 6px solid #c59b2f;
     padding: 1.5em;
     margin: 3em 0;
@@ -167,14 +167,21 @@ footer {
         --bg: #111315;
         --text: #e8e6e3;
         --heading: #f0e4c2;
-        --subheading: #e0c980; /* lighter brass-gold for contrast in dark mode */
+        --subheading: #e0c980;
         --muted: #c4baad;
         --gold-1: #b58e2b;
         --gold-2: #8f7426;
         --gold-3: #6e5920;
-        --wall: #16181b;
+        --wall: #1a1c1e; /* darker gray, like museum walls at dusk */
+        --room: #1f2022;
         --plaque: #1c1f22;
         --shadow: 0 8px 16px rgba(0,0,0,0.5);
+    }
+
+    .room {
+        background-color: var(--room);
+        border-left: 6px solid var(--gold-1);
+        box-shadow: inset 0 0 12px rgba(0,0,0,0.3);
     }
 
     .map-heading {
@@ -187,11 +194,11 @@ footer {
     }
 
     h1, h2 {
-        color: var(--subheading);
+        color: var(--heading);
         text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 0 6px rgba(181,142,43,0.25);
     }
 
-    h3 {
+    h3, h4 {
         color: var(--subheading);
         text-shadow: 0 0 4px rgba(181,142,43,0.3);
     }
