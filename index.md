@@ -11,17 +11,29 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 ---
 
-<h2 class="map-heading">🗺️ Gallery Map</h2>
-<p class="map-sub">Current Exhibition · Digital Marian Collection</p>
+<div class="map-sign" role="region" aria-label="Gallery Map">
+  <div class="map-sign__head">🗺️ Gallery Map</div>
+  <div class="map-sign__sub">Current Exhibition · Digital Marian Collection</div>
 
-➡️ **In the Data Lab**  
-↪️ **At the Café**  
-🏁 **Mary at Home**  
-🛍️ **Gift Shop** — fine prints, dashboards, and datasets   
-🗂️ **Archives & Research Room**  
-ℹ️ **Information Desk** 
+  <ul class="map-sign__list">
+    <li>➡️ <strong>In the Data Lab</strong></li>
+    <li>↪️ <strong>At the Café</strong></li>
+    <li>🏁 <strong>Mary at Home</strong></li>
+  </ul>
 
-> *Audio Guide available soon.* 🎧
+  <ul class="map-sign__amenities">
+    <li>🛍️ <strong>Gift Shop</strong> — fine prints, dashboards, and datasets</li>
+    <li>🗂️ <strong>Archives & Research Room</strong></li>
+    <li>ℹ️ <strong>Information Desk</strong></li>
+  </ul>
+
+  <hr class="map-sign__rule">
+
+  <p class="map-sign__note"><em>Audio Guide available soon.</em> 🎧</p>
+
+  <span class="screw-bl" aria-hidden="true"></span>
+  <span class="screw-br" aria-hidden="true"></span>
+</div>
 
 <div class="room">
 
