@@ -1,5 +1,18 @@
 ---
 ---
+/* ============ Light baseline (CSS variables) ============ */
+:root {
+    --bg: #f9f7f1;
+    --text: #2c2b28;
+    --muted: #5b4b3a;
+    --gold-1: #c59b2f; /* brass line / accents */
+    --gold-2: #a88a3b; /* outer band */
+    --gold-3: #d7b970; /* mat / inner */
+    --wall: #fcfbf8; /* room wall color */
+    --plaque: #ece5d0; /* label plate */
+
+    --shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
 
 /* === Digital Marian Gallery custom style === */
 /* general page tone */
@@ -58,19 +71,12 @@ em {
 }
 
 /* plaque style for badge area */
-.plaque {
-    background: #ece5d0; /* light stone tone */
-    border: 1px solid #c2a65b; /* brass edge */
+img.plaque {
+    background: #ece5d0;
+    border: 1px solid #c2a65b;
     box-shadow: inset 0 1px 3px #fff, 0 2px 6px rgba(0,0,0,0.2);
-    padding: 0.75em 1em;
-    margin: 1.5em auto;
-    max-width: 80%;
-    text-align: left;
+    padding: .4em;
     border-radius: 4px;
-}
-
-.plaque img {
-    margin: 0.2em 0.4em;
 }
 
 /* horizontal rules – brass gallery rails */
@@ -116,4 +122,39 @@ footer {
     padding: 1.5em;
     margin: 3em 0;
     border-radius: 6px;
+}
+
+/* ============ Auto Dark Mode ============ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #111315;
+        --text: #e8e6e3;
+        --muted: #c4baad;
+        --gold-1: #b58e2b;
+        --gold-2: #8f7426;
+        --gold-3: #6e5920;
+        --wall: #16181b;
+        --plaque: #1c1f22;
+        --shadow: 0 8px 16px rgba(0,0,0,0.5);
+    }
+
+    body {
+        color-scheme: dark;
+        background: var(--bg);
+        color: var(--text);
+    }
+
+    .plaque {
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.05), var(--shadow);
+    }
+
+    a {
+        color: #d2b770;
+        border-bottom-color: #b58e2b;
+    }
+
+    a:hover {
+        color: #f0e4c2;
+        border-bottom-color: #f0e4c2;
+    }
 }
