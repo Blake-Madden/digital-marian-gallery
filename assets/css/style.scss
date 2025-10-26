@@ -42,6 +42,15 @@ body {
     padding: 2em 1em;
 }
 
+/* Hide the theme's masthead title and bottom border */
+.site-header .site-title {
+    display: none !important;
+}
+
+.site-header {
+    border-bottom: 0;
+}
+
 /* headings – quiet authority */
 h1, h2, h3, h4 {
     font-family: "Times New Roman", serif;
