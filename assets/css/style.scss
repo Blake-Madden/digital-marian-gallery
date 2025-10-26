@@ -206,6 +206,7 @@ footer {
     text-align: left;
     font-family: "Times New Roman", serif;
     position: relative;
+    z-index: 1;
 }
 
 /* screws */
@@ -281,6 +282,22 @@ footer {
     font-style: italic;
     color: var(--subtext);
     margin: .75rem 0 0;
+}
+
+/* Spotlight wrapper */
+.map-spot {
+    position: relative;
+}
+
+/* Soft overhead spotlight behind the brass plate */
+.map-spot::before {
+    content: "";
+    position: absolute;
+    inset: -30px -20px;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(120% 80% at 50% -10%, rgba(255, 248, 220, 0.55) 0%, rgba(255, 248, 220, 0.18) 35%, transparent 70%);
+    filter: blur(6px);
 }
 
 /* ============ Auto Dark Mode ============ */
@@ -373,6 +390,11 @@ footer {
         --text: #efe6cf;
         --subtext: #d4cbb4;
         box-shadow: inset 0 1px 1px rgba(255,255,255,.1), inset 0 -2px 4px rgba(0,0,0,.6), 0 12px 28px rgba(0,0,0,.6);
+    }
+
+    .map-spot::before {
+        background: radial-gradient(120% 80% at 50% -10%, rgba(255, 239, 200, 0.18) 0%, rgba(255, 239, 200, 0.08) 40%, transparent 75%);
+        filter: blur(10px);
     }
 
     .map-sign__head {
