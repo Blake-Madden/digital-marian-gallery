@@ -12,6 +12,14 @@
     --plaque: #ece5d0; /* label plate */
     --shadow: 0 6px 12px rgba(0,0,0,0.25);
     --heading: #4b3621; /* deep bronze for light mode */
+    --subheading: #6b4f2a;
+    --muted: #5b4b3a;
+    --gold-1: #c59b2f;
+    --gold-2: #a88a3b;
+    --gold-3: #d7b970;
+    --wall: #fcfbf8;
+    --plaque: #ece5d0;
+    --shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
 
 /* === Digital Marian Gallery custom style === */
@@ -63,8 +71,9 @@ h3 {
 }
 
 /* subtle museum-style captions */
-em {
+em, i {
     color: #5b4b3a;
+    font-style: italic;
 }
 
 /* portrait images */
@@ -157,6 +166,8 @@ footer {
     :root {
         --bg: #111315;
         --text: #e8e6e3;
+        --heading: #f0e4c2;
+        --subheading: #e0c980; /* lighter brass-gold for contrast in dark mode */
         --muted: #c4baad;
         --gold-1: #b58e2b;
         --gold-2: #8f7426;
@@ -164,7 +175,6 @@ footer {
         --wall: #16181b;
         --plaque: #1c1f22;
         --shadow: 0 8px 16px rgba(0,0,0,0.5);
-        --heading: #f0e4c2; /* warm light-gold for contrast on dark */
     }
 
     .map-heading {
@@ -177,12 +187,17 @@ footer {
     }
 
     h1, h2 {
+        color: var(--subheading);
         text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 0 6px rgba(181,142,43,0.25);
     }
 
     h3 {
         color: var(--subheading);
         text-shadow: 0 0 4px rgba(181,142,43,0.3);
+    }
+
+    em, i {
+        color: #d4cbb4; /* light parchment tone for contrast */
     }
 
     body {
