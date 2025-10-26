@@ -53,6 +53,15 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+h3 {
+    color: var(--subheading, #6b4f2a);
+    font-family: "Times New Roman", serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
 /* subtle museum-style captions */
 em {
     color: #5b4b3a;
@@ -169,6 +178,11 @@ footer {
 
     h1, h2 {
         text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 0 6px rgba(181,142,43,0.25);
+    }
+
+    h3 {
+        color: var(--subheading);
+        text-shadow: 0 0 4px rgba(181,142,43,0.3);
     }
 
     body {

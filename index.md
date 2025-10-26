@@ -25,7 +25,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <div class="room">
 
-<h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">🧪 In the Data Lab</h2>
+<h2 class="map-heading">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
 
 <p style="text-align:center;">
@@ -56,7 +56,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <div class="room">
 
-<h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">☕ At the Café</h2>
+<h2 class="map-heading">☕ At the Café</h2>
 <p align="center"><em>Gallery Wing II · Est. MMXXV</em></p>
 
 <p style="text-align:center;">
@@ -129,7 +129,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <div class="room">
 
-<h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">🏠 Mary at Home</h2>
+<h2 class="map-heading">🏠 Mary at Home</h2>
 <p align="center"><em>Gallery Wing III · Est. MMXXV</em></p>
 
 <p style="text-align:center;">
