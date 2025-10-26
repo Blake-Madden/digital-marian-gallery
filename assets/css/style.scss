@@ -122,28 +122,6 @@ em, i {
     border-radius: 2px;
 }
 
-/* === Ornate gallery frames === */
-.frame {
-    display: inline-block;
-    margin: 2.5em auto;
-    padding: 10px;
-    border-radius: 6px;
-    background: linear-gradient(135deg, #8c6a21, #caa746 40%, #8a6b28);
-    box-shadow: inset 0 1px 2px rgba(255,255,255,.45), inset 0 -2px 4px rgba(0,0,0,.25), 0 10px 24px rgba(0,0,0,.20);
-    max-width: 75%;
-}
-
-.frame > img.portrait {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    background: #f6e7b8; /* soft matte */
-    padding: 12px;
-    border: 1px solid rgba(0,0,0,.08);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 0 6px rgba(0,0,0,.15);
-    border-radius: 3px;
-}
-
 /* plaque style for badge area */
 img.plaque {
     display: block;
@@ -417,17 +395,6 @@ footer {
 
     .plaque {
         box-shadow: inset 0 1px 0 rgba(255,255,255,.05), var(--shadow);
-    }
-
-    .frame {
-        background: linear-gradient(135deg, #5e471a, #a6802f 40%, #4d3a16);
-        box-shadow: inset 0 1px 1px rgba(255,255,255,.12), inset 0 -2px 4px rgba(0,0,0,.6), 0 12px 28px rgba(0,0,0,.55);
-    }
-
-    .frame > img.portrait {
-        background: #6e5920;
-        border-color: rgba(255,255,255,.06);
-        box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 0 10px rgba(0,0,0,.4);
     }
 
     a,
