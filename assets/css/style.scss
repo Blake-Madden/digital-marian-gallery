@@ -166,6 +166,21 @@ footer {
     font-style: italic;
 }
 
+.work {
+    margin: 2.5em auto;
+    position: relative;
+}
+
+.work::after {
+    content: "";
+    display: block;
+    height: 6px;
+    max-width: 78%;
+    margin: 1.25em auto 0;
+    background: radial-gradient(50% 100% at 50% 0%, rgba(0,0,0,.18), transparent 70%);
+    border-radius: 999px;
+}
+
 /* ============ Auto Dark Mode ============ */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -191,6 +206,10 @@ footer {
 
     .plaque-caption {
         color: #d4cbb4;
+    }
+
+    .work::after {
+        opacity: .8;
     }
 
     img.plaque {

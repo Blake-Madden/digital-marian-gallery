@@ -28,6 +28,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 <h2 class="map-heading">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
 
+<div class="work">
 <p style="text-align:center;">
   <a href="images/datawiz.png">
     <img class="portrait" src="images/datawiz.png" width="75%" alt="Dashboards at Dawn" title="Dashboards at Dawn"><br>
@@ -49,6 +50,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
     Another quiet victory for clarity before the day begins.
   </em>
 </p>
+</div>
 
 <p align="center" class="plaque-caption">— End of the « <em>In the Data Lab</em> » Wing —</p>
 
