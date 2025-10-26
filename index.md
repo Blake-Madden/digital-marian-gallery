@@ -46,9 +46,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/datawiz.png">
-    <div class="frame">
       <img class="portrait" src="images/datawiz.png" width="75% alt="Dashboards at Dawn" title="Dashboards at Dawn">
-    </div>
   </a>
 </p>
 
@@ -81,7 +79,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/data-report-at-coffee-shop-autumn.png">
-    <img class="portrait" src="images/data-report-at-coffee-shop-autumn.png" width="75%" alt="Afternoon Blend - ETL & PSL" title="Afternoon Blend - ETL & PSL"><br>
+    <img class="portrait" src="images/data-report-at-coffee-shop-autumn.png" alt="Afternoon Blend - ETL & PSL" title="Afternoon Blend - ETL & PSL"><br>
   </a>
 </p>
 
@@ -104,7 +102,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
 <a href="images/data-report-at-winter-coffee-shop.png">
-    <img class="portrait" src="images/data-report-at-winter-coffee-shop.png" width="75%" alt="Undoing the Knots" title="Undoing the Knots"><br>
+    <img class="portrait" src="images/data-report-at-winter-coffee-shop.png" alt="Undoing the Knots" title="Undoing the Knots"><br>
 </a>
 </p>
 
@@ -127,7 +125,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/springtime-coffeeshot.png">
-    <img class="portrait" src="images/springtime-coffeeshot.png" width="75%" alt="Springing Forth" title="Springing Forth"><br>
+    <img class="portrait" src="images/springtime-coffeeshot.png" alt="Springing Forth" title="Springing Forth"><br>
   </a>
 </p>
 
@@ -160,7 +158,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/trick-or-treat.png">
-    <img class="portrait" src="images/trick-or-treat.png" width="75%" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
+    <img class="portrait" src="images/trick-or-treat.png" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
   </a>
 </p>
 
@@ -183,7 +181,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 <p style="text-align:center;">
   <a href="images/thanksgiving.png">
-    <img class="portrait" src="images/thanksgiving.png" width="75%" alt="The Thanksgiving Table, with Assistants" title="The Thanksgiving Table, with Assistants"><br>
+    <img class="portrait" src="images/thanksgiving.png" alt="The Thanksgiving Table, with Assistants" title="The Thanksgiving Table, with Assistants"><br>
   </a>
 </p>
 
