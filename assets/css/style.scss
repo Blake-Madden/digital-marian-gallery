@@ -73,7 +73,7 @@ em {
 /* plaque style for badge area */
 img.plaque {
     display: block;
-    margin: 0.4em auto;
+    margin: 0.4em 0;
     background: #ece5d0;
     border: 1px solid #c2a65b;
     box-shadow: inset 0 1px 3px #fff, 0 2px 6px rgba(0,0,0,0.2);
@@ -126,6 +126,23 @@ footer {
     border-radius: 6px;
 }
 
+/* light mode */
+.map-heading {
+    font-family: "Times New Roman", serif;
+    font-variant: small-caps;
+    font-weight: normal;
+    text-align: center;
+    color: var(--heading, #4b3621);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    margin-bottom: 0.25em;
+}
+
+.map-sub {
+    text-align: center;
+    color: #5b4b3a;
+    font-style: italic;
+}
+
 /* ============ Auto Dark Mode ============ */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -139,6 +156,15 @@ footer {
         --plaque: #1c1f22;
         --shadow: 0 8px 16px rgba(0,0,0,0.5);
         --heading: #f0e4c2; /* warm light-gold for contrast on dark */
+    }
+
+    .map-heading {
+        color: #f4e9c2; /* warm parchment gold */
+        text-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 0 6px rgba(181,142,43,0.25); /* faint gold glow */
+    }
+
+    .map-sub {
+        color: #c4baad;
     }
 
     h1, h2 {

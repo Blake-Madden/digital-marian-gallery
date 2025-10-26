@@ -11,8 +11,8 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
 
 ---
 
-<h2 align="center" style="font-family: 'Times New Roman', serif; font-variant: small-caps; font-weight: normal;">🗺️ Gallery Map</h2>
-<p align="center"><em>Current Exhibition · Digital Marian Collection</em></p>
+<h2 class="map-heading">🗺️ Gallery Map</h2>
+<p class="map-sub">Current Exhibition · Digital Marian Collection</p>
 
 ➡️ **In the Data Lab**  
 ↪️ **At the Café**  
