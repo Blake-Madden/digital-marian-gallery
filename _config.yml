@@ -1,3 +1,8 @@
 title: Digital Marian Gallery
 description: A quiet online exhibit of digital works
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+include:
+  - assets/css/style.scss
