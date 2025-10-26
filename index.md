@@ -226,7 +226,7 @@ Works on rotation; serenity subject to network latency.
 ### 🎟️ Support the Gallery
 ![Supporting Patrons](https://img.shields.io/github/stars/Blake-Madden/digital-marian-gallery?label=Supporting%20Patrons&color=9C661F&style=flat-square)
 
-If you enjoyed your visit, you can support future exhibitions by leaving a ⭐ on the project repository.  
+If you enjoyed your visit, you can support future exhibitions by leaving a ⭐ on the [project repository](https://github.com/Blake-Madden/digital-marian-gallery).  
 
 Every star helps keep the lights on in the Data Lab and the espresso warm in the Café Wing.
 
