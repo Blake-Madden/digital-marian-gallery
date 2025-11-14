@@ -21,6 +21,7 @@
     --plaque: #ece5d0;
     --shadow: 0 6px 12px rgba(0,0,0,0.25);
     --room: #fcfbf8; /* light parchment for day mode */
+    --map-link-color: #1a1a1a; /* dark readable link in light mode */
 }
 
 /* === Digital Marian Gallery custom style === */
@@ -473,6 +474,21 @@ footer {
     filter: blur(6px);
 }
 
+/* Map link visibility fix */
+.map-sign__list a,
+.map-sign__list a:visited,
+.map-sign__amenities a,
+.map-sign__amenities a:visited {
+    color: var(--map-link-color);
+    text-decoration: none;
+    font-weight: 600; /* optional but looks great */
+}
+
+.map-sign__list a:hover,
+.map-sign__amenities a:hover {
+    text-decoration: underline;
+}
+
 /* ============ Auto Dark Mode ============ */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -488,6 +504,7 @@ footer {
         --room: #1f2022;
         --plaque: #1c1f22;
         --shadow: 0 8px 16px rgba(0,0,0,0.5);
+        --map-link-color: #ffffff; /* fully white in dark mode */
     }
 
     .room {
