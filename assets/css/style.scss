@@ -475,21 +475,6 @@ footer {
     filter: blur(6px);
 }
 
-/* Map link visibility fix */
-.map-sign__list a,
-.map-sign__list a:visited,
-.map-sign__amenities a,
-.map-sign__amenities a:visited {
-    color: var(--map-link-color);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.map-sign__list li a:visited,
-.map-sign__amenities li a:visited {
-    color: var(--map-link-color);
-}
-
 .map-sign__list a:hover,
 .map-sign__amenities a:hover {
     text-decoration: underline;
@@ -740,6 +725,21 @@ footer {
     text-align: center;
     opacity: .85;
     font-family: Georgia, serif;
+}
+
+/* Map link visibility fix */
+.map-sign__list a,
+.map-sign__list a:visited,
+.map-sign__amenities a,
+.map-sign__amenities a:visited {
+    color: var(--map-link-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.map-sign__list li a:visited,
+.map-sign__amenities li a:visited {
+    color: var(--map-link-color);
 }
 
 /* Warm gallery-directory illumination */
