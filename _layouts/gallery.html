@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="gallery-room">
+
+    <!-- Room Header (title & subtitle come from the page itself) -->
+    <header class="room-header">
+        {{ content | split: '<!-- ROOM-CONTENT -->' | first }}
+    </header>
+
+    <!-- Main Artwork & Description -->
+    <main class="room-main">
+        {{ content | split: '<!-- ROOM-CONTENT -->' | last }}
+    </main>
+
+    <!-- Navigation Plaque -->
+    <nav class="room-nav">
+        <div class="nav-inner">
+            {% if page.prev %}
+            <a href="{{ page.prev | relative_url }}" class="nav-link">← Previous</a>
+            {% endif %}
+            <a href="{{ '/' | relative_url }}" class="nav-link">Gallery Entrance</a>
+            {% if page.next %}
+            <a href="{{ page.next | relative_url }}" class="nav-link">Next →</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- Footer Inscription -->
+    <footer class="museum-footer">
+        <hr>
+        <p><em>© {{ site.time | date: "%Y" }} Digital Marian Gallery · All images born of code and care.</em></p>
+    </footer>
+
+</div>
