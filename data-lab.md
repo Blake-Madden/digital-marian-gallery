@@ -6,6 +6,8 @@ prev: /       # return to entrance
 next: /cafe/  # forward navigation
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 <h2 align="center">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
 
@@ -15,8 +17,8 @@ next: /cafe/  # forward navigation
 <p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
-  <a href="images/datawiz.png">
-      <img class="portrait" src="images/datawiz.png" alt="Dashboards at Dawn" title="Dashboards at Dawn">
+  <a href="{{ '/images/datawiz.png' | relative_url }}">
+      <img class="portrait" src="{{ '/images/datawiz.png' | relative_url }}" alt="Dashboards at Dawn" title="Dashboards at Dawn">
   </a>
 </p>
 
@@ -41,8 +43,8 @@ next: /cafe/  # forward navigation
 <p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
-  <a href="images/select-from-grace.png">
-      <img class="portrait" src="images/select-from-grace.png" alt="SELECT * FROM Grace" title="SELECT * FROM Grace">
+  <a href="{{ '/images/select-from-grace.png' | relative_url }}">
+      <img class="portrait" src="{{ '/images/select-from-grace.png' | relative_url }}" alt="SELECT * FROM Grace" title="SELECT * FROM Grace">
   </a>
 </p>
 
