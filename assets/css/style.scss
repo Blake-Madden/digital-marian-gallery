@@ -205,7 +205,20 @@ footer {
     overflow: hidden;
     /* raised edge / subtle emboss */
     box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.6), inset 0 -2px 4px rgba(0,0,0,0.15);
-    animation: roomFadeIn 0.8s ease-out both;
+    backdrop-filter: blur(1px);
+}
+
+/* gold frame reflection highlight */
+.room .frame-glint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px; /* same width as your border-left */
+    height: 100%;
+    pointer-events: none;
+    z-index: 3;
+    background: linear-gradient( to bottom, rgba(255, 245, 200, 0.55) 0%, rgba(255, 220, 150, 0.35) 15%, rgba(255, 200, 120, 0.15) 40%, rgba(255, 200, 120, 0.05) 70%, rgba(255, 200, 120, 0.0) 100% );
+    mix-blend-mode: screen; /* natural glow blending */
 }
 
 /* top spotlight */
@@ -259,11 +272,6 @@ footer {
     margin: 0.6em auto 1em;
     background: radial-gradient( ellipse at center, rgba(0,0,0,0.25), rgba(0,0,0,0) );
     border-radius: 50%;
-}
-
-/* surrounding vignette */
-.room {
-    backdrop-filter: blur(1px);
 }
 
 /* light mode */
@@ -436,7 +444,20 @@ footer {
     }
 
     .room::after {
-        background: radial-gradient( ellipse at 20% 0%, rgba(230,200,120,0.10) 0%, rgba(230,200,120,0.04) 25%, rgba(0,0,0,0) 70% ), radial-gradient( ellipse at 80% 0%, rgba(230,200,120,0.10) 0%, rgba(230,200,120,0.04) 25%, rgba(0,0,0,0) 70% );
+        background: radial-gradient(
+            ellipse at 20% 0%,
+            rgba(230,200,120,0.10) 0%,
+            rgba(230,200,120,0.04) 25%,
+            rgba(0,0,0,0) 70% ),
+            radial-gradient( ellipse at 80% 0%, rgba(230,200,120,0.10) 0%, rgba(230,200,120,0.04) 25%, rgba(0,0,0,0) 70% );
+    }
+
+    .room .frame-glint {
+        background: linear-gradient(
+            to bottom, rgba(255, 230, 150, 0.25) 0%,
+            rgba(255, 220, 120, 0.18) 25%,
+            rgba(255, 200, 100, 0.10) 60%,
+            rgba(255, 200, 100, 0.00) 100% );
     }
 
     .plaque-caption {
@@ -532,19 +553,6 @@ footer {
         background: linear-gradient( 135deg, #6e5920 0%, #8f7426 40%, #b58e2b 100% );
         border-image: linear-gradient( 135deg, #8f7426, #b58e2b 45%, #5e471a ) 1;
         box-shadow: 0 0 0 4px rgba(181,142,43,.7), 0 12px 28px rgba(0,0,0,.55), inset 0 1px 1px rgba(255,255,255,.1);
-    }
-}
-
-/* fade-in animation */
-@keyframes roomFadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
     }
 }
 
