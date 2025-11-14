@@ -203,9 +203,15 @@ footer {
     border-radius: 8px;
     position: relative;
     overflow: hidden;
-    /* raised edge / subtle emboss */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.6), inset 0 -2px 4px rgba(0,0,0,0.15);
-    animation: roomFadeIn 0.8s ease-out both;
+    /* linen texture */
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.07) 0px, transparent 1px), linear-gradient(0deg, rgba(255,255,255,0.07) 0px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.06) 0px, transparent 2px), linear-gradient(0deg, rgba(0,0,0,0.06) 0px, transparent 2px);
+    background-size: 3px 3px, /* fine weave */
+    3px 3px, 12px 12px, /* larger fibers */
+    12px 12px;
+    background-blend-mode: overlay;
+    /* add soft noise */
+    mask-image: radial-gradient(circle 200% at center, black 10%, transparent 100%);
+    filter: contrast(1) brightness(.98);
 }
 
 /* top spotlight */
@@ -426,9 +432,11 @@ footer {
     }
 
     .room {
-        background-color: var(--room);
-        border-left: 6px solid var(--gold-1);
-        box-shadow: inset 0 0 12px rgba(0,0,0,0.3);
+        background-image:
+            linear-gradient(90deg, rgba(255,255,255,0.05) 0px, transparent 1px),
+            linear-gradient(0deg,  rgba(255,255,255,0.05) 0px, transparent 1px),
+            linear-gradient(90deg, rgba(0,0,0,0.25) 0px, transparent 2px),
+            linear-gradient(0deg,  rgba(0,0,0,0.25) 0px, transparent 2px);
     }
 
     .room::before {
