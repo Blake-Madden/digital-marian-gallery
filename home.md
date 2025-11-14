@@ -72,4 +72,32 @@ next:
 </p>
 </div>
 
+<div class="room">
+<p class="pedestal">— Gallery View —</p>
+
+<p style="text-align:center;">
+  <a href="{{ '/images/gardening.png' | relative_url }}">
+    <img class="portrait" src="{{ '/images/gardening.png' | relative_url }}" alt="Immaculate Harvest" title="Immaculate Harvest"><br>
+  </a>
+</p>
+
+<div style="text-align:left;">
+  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+  <img class="plaque" src="https://img.shields.io/badge/Title-Immaculate%20Harvest-7C6F44?style=flat-square" alt="Title badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-watercolor%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90003-4b3621?style=flat-square" alt="Accession badge">
+  <br />
+</div>
+
+<p style="text-align:center;">
+  <em>
+    Our Lady pauses to judge a tomato’s worthiness while the garden carries on around her:
+    chipmunks snacking without a care, bees making their gentle rounds,
+    and a plump groundhog snacking like it paid admission.
+    Beneath her heel, the serpent stays politely in place — a gentle reminder of who’s in charge of this garden plot.
+  </em>
+</p>
+</div>
+
 <p align="center" class="plaque-caption">— End of the « <em>Mary at Home</em> » Wing —</p>
