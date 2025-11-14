@@ -262,53 +262,73 @@ footer {
     border-radius: 50%;
 }
 
-/* ===========================
-   ROOM INTRO PLAQUE
-   =========================== */
+/* ================================
+   ROOM INTRO PLAQUE — ELEGANT
+   ================================ */
 
-.room-intro {
+.room-plaque {
     max-width: 700px;
-    margin: 2.5em auto 3em;
-    padding: 1.5em 2em;
-    background: linear-gradient( to bottom right, #e9e1cf, #d8cfb7 );
-    border: 2px solid #c2a46a;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.20), inset 0 1px 2px rgba(255,255,255,0.5), inset 0 -2px 4px rgba(0,0,0,0.12);
+    margin: 3em auto 3.5em;
+    padding: 0;
     position: relative;
+    text-align: center;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.22);
 }
 
-/* subtle brass edge highlight */
-.room-intro::before {
+.room-plaque-inner {
+    background: linear-gradient( 135deg, #e9ddc4 0%, #d8c7a4 35%, #c7b28a 100% );
+    border: 2px solid #b39563;
+    border-radius: 10px;
+    padding: 1.6em 2.2em;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.6), inset 0 -2px 4px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+/* top reflective edge */
+.room-plaque-inner::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 5px;
-    background: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.1), rgba(255,255,255,0.6) );
-    opacity: 0.8;
-    border-radius: 8px 8px 0 0;
+    height: 6px;
+    background: linear-gradient( to right, rgba(255,255,255,0.8), rgba(255,255,255,0.2), rgba(255,255,255,0.8) );
+    opacity: 0.7;
+    border-radius: 10px 10px 0 0;
 }
 
-/* title */
-.room-intro-title {
+/* spotlight overhead */
+.room-plaque::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 180%;
+    background: radial-gradient( ellipse at top, rgba(255,255,230,0.45) 0%, rgba(255,255,230,0.12) 40%, rgba(255,255,230,0) 80% );
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* titles */
+.room-plaque-title {
     font-family: "Times New Roman", serif;
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: .5em;
+    font-size: 1.25rem;
     font-variant: small-caps;
     letter-spacing: 1px;
-    color: #4b3d2a;
+    margin-bottom: 0.6em;
+    color: #4b3e2f;
 }
 
-/* description */
-.room-intro-text {
+/* descriptions */
+.room-plaque-text {
     font-family: Georgia, serif;
-    font-size: 0.95rem;
-    line-height: 1.6;
+    font-size: 0.98rem;
+    line-height: 1.65;
     margin: 0;
-    color: #3f3a32;
+    color: #3a352b;
 }
 
 /* light mode */
@@ -491,22 +511,26 @@ footer {
                                       rgba(0,0,0,0) 70% );
     }
 
-    .room-intro {
-        background: linear-gradient( to bottom right, #3a352c, #2f2b25 );
-        border-color: #b0904f;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.45), inset 0 1px 1px rgba(255,255,255,0.05), inset 0 -1px 2px rgba(0,0,0,0.30);
+    .room-plaque {
+        box-shadow: 0 8px 18px rgba(0,0,0,0.45);
     }
 
-    .room-intro-title {
-        color: #e8d8b5;
+    .room-plaque-inner {
+        background: linear-gradient( 135deg, #3b342b 0%, #302a23 40%, #28231d 100% );
+        border-color: #a98340;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.03), inset 0 -2px 4px rgba(0,0,0,0.35);
     }
 
-    .room-intro-text {
-        color: #d4c7a7;
+    .room-plaque-title {
+        color: #e2cfaa;
     }
 
-    .room-intro::before {
-        background: linear-gradient( to right, rgba(255,215,145,0.4), rgba(255,215,145,0.1), rgba(255,215,145,0.4) );
+    .room-plaque-text {
+        color: #d8c7a7;
+    }
+
+    .room-plaque::after {
+        background: radial-gradient( ellipse at top, rgba(240,200,120,0.18) 0%, rgba(240,200,120,0.06) 35%, rgba(0,0,0,0) 80% );
     }
 
     .plaque-caption {

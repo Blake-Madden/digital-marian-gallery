@@ -9,14 +9,16 @@ next: /cafe/  # forward navigation
 <h2 align="center">🧪 In the Data Lab</h2>
 <p align="center"><em>Gallery Wing I · Est. MMXXV</em></p>
 
-<div class="room-intro">
-  <h3 class="room-intro-title">About This Gallery</h3>
-  <p class="room-intro-text">
+<div class="room-plaque">
+  <div class="room-plaque-inner">
+    <h3 class="room-plaque-title">About This Gallery</h3>
+    <p class="room-plaque-text">
     This wing presents the Blessed Mother in her analytical element — a workspace of quiet focus,
     glowing dashboards, and the artful rhythm of technical problem-solving.
     These scenes honor the precision, patience, and thoughtful steadiness that guide her
     through the deep logic of models, queries, and visual design.
-  </p>
+    </p>
+  </div>
 </div>
 
 <!-- ROOM-CONTENT -->
