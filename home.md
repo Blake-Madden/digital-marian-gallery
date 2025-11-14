@@ -12,7 +12,6 @@ next:
 <!-- ROOM-CONTENT -->
 
 <div class="room">
-<div class="frame-glint"></div>
 <p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
@@ -38,7 +37,6 @@ next:
 </div>
 
 <div class="room">
-<div class="frame-glint"></div>
 <p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
