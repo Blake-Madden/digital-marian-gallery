@@ -17,9 +17,9 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
       <div class="map-sign__sub">Current Exhibition · Digital Marian Collection</div>
 
       <ul class="map-sign__list">
-        <li>➡️ <strong><a href="/data-lab/">In the Data Lab</a></strong></li>
-        <li>↪️ <strong><a href="/cafe/">At the Café</a></strong></li>
-        <li>🏁 <strong>Mary at Home</strong></li>
+        <li>➡️ <strong><a href="{{ '/data-lab/' | relative_url }}">In the Data Lab</a></strong></li>
+        <li>↪️ <strong><a href="{{ '/cafe/' | relative_url }}">At the Café</a></strong></li>
+        <li>🏁 <strong><a href="{{ '/home/' | relative_url }}">Mary at Home</a></strong></li>
       </ul>
 
       <ul class="map-sign__amenities">
@@ -35,67 +35,6 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
       <span class="screw-bl" aria-hidden="true"></span>
       <span class="screw-br" aria-hidden="true"></span>
     </div>
-</div>
-
-
-
-
-
-
-
-<div class="room">
-
-<h2 class="map-heading">🏠 Mary at Home</h2>
-<p align="center"><em>Gallery Wing III · Est. MMXXV</em></p>
-
-<p class="pedestal">— Gallery View —</p>
-
-<p style="text-align:center;">
-  <a href="images/trick-or-treat.png">
-    <img class="portrait" src="images/trick-or-treat.png" alt="Jack-o'-Lantern Workshop" title="Jack-o'-Lantern Workshop"><br>
-  </a>
-</p>
-
-<div style="text-align:left;">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-Jack%E2%80%90o%E2%80%99%E2%80%90Lantern%20Workshop-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br />
-</div>
-
-<p style="text-align:center;">
-  <em>
-    Halloween at home: Our Lady of the Rosary sets her data work aside to carve jack-o’-lanterns by the fire. The cider’s hot, the pets are drowsy—except for one curious cat plotting an ambush on a pumpkin. She laughs as the cat prepares its attack, convinced it’s helping with the carving.
-  </em>
-</p>
-
-<p class="pedestal">— Gallery View —</p>
-
-<p style="text-align:center;">
-  <a href="images/thanksgiving.png">
-    <img class="portrait" src="images/thanksgiving.png" alt="The Thanksgiving Table, with Assistants" title="The Thanksgiving Table, with Assistants"><br>
-  </a>
-</p>
-
-<div style="text-align:left;">
-  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
-  <img class="plaque" src="https://img.shields.io/badge/Title-The%20Thanksgiving%20Table%2C%20with%20Assistants-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
-  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
-  <br />
-</div>
-
-<p style="text-align:center;">
-  <em>
-    Late autumn in the kitchen: Mary prepares pumpkin and apple pies while her little audience waits for crumbs of grace — and crust. One cat can’t resist inspecting her handiwork, and she smiles, knowing curiosity is part of every good creation.
-  </em>
-</p>
-
-<p align="center" class="plaque-caption">— End of the « <em>Mary at Home</em> » Wing —</p>
-
 </div>
 
 <hr style="border: 0; height: 1px; background: #d1b97f; margin: 40px 0;">
@@ -126,4 +65,4 @@ If you enjoyed your visit, you can support future exhibitions by leaving a ⭐ o
 
 Every star helps keep the lights on in the Data Lab and the espresso warm in the Café Wing.
 
-© 2025 Digital Marian Gallery · All images born of code and care.
+© {{ site.time | date: "%Y" }} Digital Marian Gallery · All images born of code and care.

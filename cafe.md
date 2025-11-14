@@ -25,7 +25,7 @@ next: /home/
   <img class="plaque" src="https://img.shields.io/badge/Title-Afternoon%20Blend%20%E2%80%94%20ETL%20%26%20PSL-7C6F44?style=flat-square" alt="Title badge">
   <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90003-4b3621?style=flat-square" alt="Accession badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
   <br />
 </div>
 
@@ -50,7 +50,7 @@ next: /home/
   <img class="plaque" src="https://img.shields.io/badge/Title-Undoing%20the%20Knots-7C6F44?style=flat-square" alt="Title badge">
   <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencils-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90004-4b3621?style=flat-square" alt="Accession badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90002-4b3621?style=flat-square" alt="Accession badge">
   <br />
 </div>
 
@@ -75,7 +75,7 @@ next: /home/
   <img class="plaque" src="https://img.shields.io/badge/Title-Springing%20Forth%20%E2%80%94%20New%20Visualizations-7C6F44?style=flat-square" alt="Title badge">
   <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
-  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90005-4b3621?style=flat-square" alt="Accession badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90003-4b3621?style=flat-square" alt="Accession badge">
   <br />
 </div>
 
