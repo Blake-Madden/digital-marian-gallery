@@ -206,6 +206,7 @@ footer {
     /* raised edge / subtle emboss */
     box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.6), inset 0 -2px 4px rgba(0,0,0,0.15);
     animation: roomFadeIn 0.8s ease-out both;
+    backdrop-filter: blur(1px);
 }
 
 /* top spotlight */
@@ -261,9 +262,53 @@ footer {
     border-radius: 50%;
 }
 
-/* surrounding vignette */
-.room {
-    backdrop-filter: blur(1px);
+/* ===========================
+   ROOM INTRO PLAQUE
+   =========================== */
+
+.room-intro {
+    max-width: 700px;
+    margin: 2.5em auto 3em;
+    padding: 1.5em 2em;
+    background: linear-gradient( to bottom right, #e9e1cf, #d8cfb7 );
+    border: 2px solid #c2a46a;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.20), inset 0 1px 2px rgba(255,255,255,0.5), inset 0 -2px 4px rgba(0,0,0,0.12);
+    position: relative;
+}
+
+/* subtle brass edge highlight */
+.room-intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.1), rgba(255,255,255,0.6) );
+    opacity: 0.8;
+    border-radius: 8px 8px 0 0;
+}
+
+/* title */
+.room-intro-title {
+    font-family: "Times New Roman", serif;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #4b3d2a;
+}
+
+/* description */
+.room-intro-text {
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #3f3a32;
 }
 
 /* light mode */
@@ -436,7 +481,32 @@ footer {
     }
 
     .room::after {
-        background: radial-gradient( ellipse at 20% 0%, rgba(230,200,120,0.10) 0%, rgba(230,200,120,0.04) 25%, rgba(0,0,0,0) 70% ), radial-gradient( ellipse at 80% 0%, rgba(230,200,120,0.10) 0%, rgba(230,200,120,0.04) 25%, rgba(0,0,0,0) 70% );
+        background: radial-gradient( ellipse at 20% 0%,
+                                     rgba(230,200,120,0.10) 0%,
+                                     rgba(230,200,120,0.04) 25%,
+                                     rgba(0,0,0,0) 70% ),
+                    radial-gradient( ellipse at 80% 0%,
+                                     rgba(230,200,120,0.10) 0%,
+                                     rgba(230,200,120,0.04) 25%,
+                                      rgba(0,0,0,0) 70% );
+    }
+
+    .room-intro {
+        background: linear-gradient( to bottom right, #3a352c, #2f2b25 );
+        border-color: #b0904f;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.45), inset 0 1px 1px rgba(255,255,255,0.05), inset 0 -1px 2px rgba(0,0,0,0.30);
+    }
+
+    .room-intro-title {
+        color: #e8d8b5;
+    }
+
+    .room-intro-text {
+        color: #d4c7a7;
+    }
+
+    .room-intro::before {
+        background: linear-gradient( to right, rgba(255,215,145,0.4), rgba(255,215,145,0.1), rgba(255,215,145,0.4) );
     }
 
     .plaque-caption {

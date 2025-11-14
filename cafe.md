@@ -9,6 +9,17 @@ next: /home/
 <h2 align="center">☕ At the Café</h2>
 <p align="center"><em>Gallery Wing II · Est. MMXXV</em></p>
 
+<div class="room-intro">
+  <h3 class="room-intro-title">About This Gallery</h3>
+  <p class="room-intro-text">
+    Here we find Our Lady working beyond the lab, drawing inspiration from the gentle
+    motion of a café afternoon — notebooks open, seasonal drinks in hand, and ideas
+    unfolding at their own pace. These pieces explore how creativity emerges in the
+    margins of daily life, where code, reflection, and comfort meet.
+  </p>
+</div>
+
+
 <!-- ROOM-CONTENT -->
 
 <div class="room">

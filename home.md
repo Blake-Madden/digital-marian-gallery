@@ -9,6 +9,15 @@ next:
 <h2 align="center">🏠 Mary at Home</h2>
 <p align="center"><em>Gallery Wing III · Est. MMXXV</em></p>
 
+<div class="room-intro">
+  <h3 class="room-intro-title">About This Gallery</h3>
+  <p class="room-intro-text">
+    This wing brings us into Mary’s home, where work yields to warmth, tradition,
+    and the simple joys of the season. Pets roam, fires crackle, and moments of calm
+    shape the stories shown here — quieter scenes that belong wholly to home.
+  </p>
+</div>
+
 <!-- ROOM-CONTENT -->
 
 <div class="room">
