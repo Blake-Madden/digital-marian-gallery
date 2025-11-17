@@ -85,7 +85,7 @@ next: /home/
 <div style="text-align:left;">
   <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img class="plaque" src="https://img.shields.io/badge/Title-Springing%20Forth%20%E2%80%94%20New%20Visualizations-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
   <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90003-4b3621?style=flat-square" alt="Accession badge">
   <br />
@@ -94,6 +94,34 @@ next: /home/
 <p style="text-align:center;">
 <em>
     Spring in the café: Our Lady’s Immaculate Heart glows as she codes a new library for experimental data visualization — merging Tufte’s precision with Du Bois’s imagination. A mocha frappe rests nearby, cooling as open-source creativity quietly takes shape.
+  </em>
+</p>
+</div>
+
+<div class="room">
+<p class="pedestal">— Gallery View —</p>
+
+<p style="text-align:center;">
+  <a href="{{ '/images/reading-at-borders.png' | relative_url }}">
+    <img class="portrait" src="{{ '/images/reading-at-borders.png' | relative_url }}" alt="Open Source Dreamimg from the Reading Chair" title="Open Source Dreamimg from the Reading Chair"><br>
+  </a>
+</p>
+
+<div style="text-align:left;">
+  <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+  <img class="plaque" src="https://img.shields.io/badge/Title-Open%20Source%20Dreamimg%20from%20the%20Reading%20Chair-7C6F44?style=flat-square" alt="Title badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20colored%20pencil%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90004-4b3621?style=flat-square" alt="Accession badge">
+  <br />
+</div>
+
+<p style="text-align:center;">
+<em>
+    Our Lady settles into the plush Borders reading chair—the kind that made every visit feel like you were staying just a little longer than you planned.
+    Around her, the store murmurs with soft conversations, latte foamers, and the quiet joy of someone finding a paperback they didn’t know they were looking for.
+    She reads her magazine with a small, knowing smile, taking in the promise of open source like it’s a secret worth savoring.<br /><br />
+    Her coffee steams, the aisles bustle gently, and for a brief moment the whole place feels like a world made for unhurried afternoons.
   </em>
 </p>
 </div>

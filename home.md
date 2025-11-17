@@ -34,7 +34,7 @@ next:
 <div style="text-align:left;">
   <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img class="plaque" src="https://img.shields.io/badge/Title-Jack%E2%80%90o%E2%80%99%E2%80%90Lantern%20Workshop-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20style%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
   <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90001-4b3621?style=flat-square" alt="Accession badge">
   <br />
@@ -59,7 +59,7 @@ next:
 <div style="text-align:left;">
   <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img class="plaque" src="https://img.shields.io/badge/Title-The%20Thanksgiving%20Table%2C%20with%20Assistants-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20manner%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20painting%2C%20in%20the%20style%20of%20oil%20on%20canvas-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
   <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90002-4b3621?style=flat-square" alt="Accession badge">
   <br />
@@ -84,7 +84,7 @@ next:
 <div style="text-align:left;">
   <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
   <img class="plaque" src="https://img.shields.io/badge/Title-Immaculate%20Harvest-7C6F44?style=flat-square" alt="Title badge">
-  <img class="plaque" src="https://img.shields.io/badge/Medium-watercolor%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20watercolor%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
   <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
   <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90003-4b3621?style=flat-square" alt="Accession badge">
   <br />
