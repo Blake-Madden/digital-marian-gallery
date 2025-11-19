@@ -100,4 +100,32 @@ next:
 </p>
 </div>
 
+<div class="room">
+<p class="pedestal">— Gallery View —</p>
+
+<p style="text-align:center;">
+  <a href="{{ '/images/cosmic-queries.png' | relative_url }}">
+    <img class="portrait" src="{{ '/images/cosmic-queries.png' | relative_url }}" alt="Cosmic Queries" title="Cosmic Queries"><br>
+  </a>
+</p>
+
+<div style="text-align:left;">
+  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+  <img class="plaque" src="https://img.shields.io/badge/Title-Cosmic%20Queries-7C6F44?style=flat-square" alt="Title badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20watercolor%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90004-4b3621?style=flat-square" alt="Accession badge">
+  <br />
+</div>
+
+<p style="text-align:center;">
+  <em>
+    Our Lady reclines on her cabin roof beneath a sky painted in northern lights, her black cat curled in her lap, eyes half-closed in a quiet, contented drift.
+    An owl perches on the chimney like a seasoned night scholar, blinking slowly as if evaluating the heavens for itself.
+    Down by the lake, a deer lifts its head mid-step, briefly pausing as though it too has noticed something wondrous in the shifting sky.
+    Beside her, the telescope waits quietly — a reminder that some nights invite questions as gently as they offer answers.
+  </em>
+</p>
+</div>
+
 <p align="center" class="plaque-caption">— End of the « <em>Mary at Home</em> » Wing —</p>
