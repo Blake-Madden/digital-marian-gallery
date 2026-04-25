@@ -102,6 +102,33 @@ next: /home/
 <p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
+  <a href="{{ '/images/reading-at-barnes-and-nobel.png' | relative_url }}">
+    <img class="portrait" src="{{ '/images/reading-at-barnes-and-nobel.png' | relative_url }}" alt="A Rain-Soft Afternoon of Open Source Study" title="A Rain-Soft Afternoon of Open Source Study"><br>
+  </a>
+</p>
+
+<div style="text-align:left;">
+  <img class="plaque" src="https://img.shields.io/badge/Room-Café%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+  <img class="plaque" src="https://img.shields.io/badge/Title-A%20Rain%20Soft%20Afternoon%20of%20Open%20Source%20Study-7C6F44?style=flat-square" alt="Title badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20watercolor-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MCA%E2%80%90004-4b3621?style=flat-square" alt="Accession badge">
+  <br />
+</div>
+
+<p style="text-align:center;">
+  <em>
+    She rests into the worn, welcoming chair as the bookstore hums gently around her—cups set down, pages turned, quiet conversations drifting between the shelves.
+    From the café comes the soft rhythm of steaming milk and low voices, a steady warmth against the cool, rain-soaked afternoon beyond the windows.<br /><br />
+    In the children’s corner, small hands guide a wooden train along its winding track, the faint clatter and bursts of laughter rising and falling like a distant, cheerful tide.
+    Outside, the rain pours without hurry, tracing silver lines down the glass and dimming the world to a soft, contemplative gray.<br /><br />
+    She reads on, unbothered and at ease, her coffee still warm, her thoughts quietly engaged in the open promise of her book.
+    For a little while, between the rain, the rails, and the low café murmur, everything feels gently held—unrushed, and exactly where it ought to be.
+  </em>
+</p>
+</div>
+
+<p style="text-align:center;">
   <a href="{{ '/images/reading-at-borders.png' | relative_url }}">
     <img class="portrait" src="{{ '/images/reading-at-borders.png' | relative_url }}" alt="Open Source Dreamimg from the Reading Chair" title="Open Source Dreamimg from the Reading Chair"><br>
   </a>
