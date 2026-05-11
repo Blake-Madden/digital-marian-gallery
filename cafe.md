@@ -126,6 +126,10 @@ next: /home/
     For a little while, between the rain, the rails, and the low café murmur, everything feels gently held—unrushed, and exactly where it ought to be.
   </em>
 </p>
+</div>
+
+<div class="room">
+<p class="pedestal">— Gallery View —</p>
 
 <p style="text-align:center;">
   <a href="{{ '/images/reading-at-borders.png' | relative_url }}">
