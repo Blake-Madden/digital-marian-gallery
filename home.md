@@ -3,7 +3,7 @@ layout: gallery
 title: "Mary at Home"
 permalink: /home/
 prev: /cafe/
-next:
+next: /young-mary/
 ---
 
 <h2 align="center">🏠 Mary at Home</h2>
