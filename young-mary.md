@@ -18,6 +18,8 @@ prev: /home/
   </div>
 </div>
 
+<!-- ROOM-CONTENT -->
+
 <div class="room">
 <p class="pedestal">— Gallery View —</p>
 
