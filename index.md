@@ -20,6 +20,7 @@ Each room explores a different rhythm of her day — lab light, café hum, and e
         <li>➡️ <strong><a href="{{ '/data-lab/' | relative_url }}">In the Data Lab</a></strong></li>
         <li>↪️ <strong><a href="{{ '/cafe/' | relative_url }}">At the Café</a></strong></li>
         <li>🏁 <strong><a href="{{ '/home/' | relative_url }}">Mary at Home</a></strong></li>
+        <li>✨ <strong><a href="{{ '/young-mary/' | relative_url }}">Young Mary</a></strong></li>
       </ul>
 
       <ul class="map-sign__amenities">
