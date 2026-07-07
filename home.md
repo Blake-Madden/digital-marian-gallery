@@ -128,4 +128,29 @@ next: /young-mary/
 </p>
 </div>
 
+<div class="room">
+<p class="pedestal">— Gallery View —</p>
+
+<p style="text-align:center;">
+  <a href="{{ '/images/not-quite-yet.png' | relative_url }}">
+    <img class="portrait" src="{{ '/images/not-quite-yet.png' | relative_url }}" alt="Not Quite Yet" title="Not Quite Yet"><br>
+  </a>
+</p>
+
+<div style="text-align:left;">
+  <img class="plaque" src="https://img.shields.io/badge/Room-Residence%20Gallery-6b4f2a?style=flat-square" alt="Room badge">
+  <img class="plaque" src="https://img.shields.io/badge/Title-Not%20Quite%20Yet-7C6F44?style=flat-square" alt="Title badge">
+  <img class="plaque" src="https://img.shields.io/badge/Medium-Digital%20illustration%2C%20in%20the%20style%20of%20watercolor%20on%20paper-9C661F?style=flat-square" alt="Medium badge">
+  <img class="plaque" src="https://img.shields.io/badge/Artist-Human%20%2B%20AI%20Collaboration-6b4f2a?style=flat-square" alt="Artist badge">
+  <img class="plaque" src="https://img.shields.io/badge/Accession-MHH%E2%80%90005-4b3621?style=flat-square" alt="Accession badge">
+  <br />
+</div>
+
+<p style="text-align:center;">
+  <em>
+    On a cold and storm-swept evening, Mary pauses at the hearth, keeping faithful watch. The orange scones are nearly ready, their fragrance filling the cabin, yet a few moments more will bring them to perfection. Outside, wind and rain rattle the darkened trees, while inside a bowl of bright orange frosting waits quietly for the scones to cool. In the space between "almost" and "now," warmth, patience, and simple joys are gathered by the fire.
+  </em>
+</p>
+</div>
+
 <p align="center" class="plaque-caption">— End of the « <em>Mary at Home</em> » Wing —</p>
